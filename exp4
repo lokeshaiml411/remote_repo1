@@ -1,0 +1,181 @@
+    1  cd D:/
+    2  cd Y23ACM411
+    3  CD Devops
+    4  git clone https://github.com/lokeshaiml411/RemoteRepo.git
+    5  ls
+    6  cd RemoteRepo
+    7  ls
+    8  touch file1.txt
+    9  touch file2.txt
+   10  git log
+   11  git status
+   12  vi file1.txt
+   13  git add file1.txt
+   14  git status
+   15  vi file2.txt
+   16  git status
+   17  git commit -m "first commit:file1!"
+   18  git config --global user.name "lokesh"
+   19  git config --global user.email cheedellalokesh6@gmail.com
+   20  git commit -m "first commit:file1"
+   21  git log
+   22  vi file2.txt
+   23  git status
+   24  git  add file2.txt
+   25  git status
+   26  git diff --staged
+   27  git commit -m "second commit:file2"
+   28  git status
+   29  ls
+   30  ls -a
+   31  vi file1.txt
+   32  git status
+   33  git add file1.txt
+   34  git status
+   35  vi file2.txt
+   36  git status
+   37  git diff
+   38  git commit  -m "third commit :file2"
+   39  git log --oneline
+   40  git diff HEAD
+   41  git status
+   42  git add file2:txt
+   43  git commit -m "fourth commit file2.txt
+   44  git commit -m "fourth commit file2.txt"
+   45  wq
+   46  exit
+   47  q!
+   48  git add file2.txt
+   49  git commit -m "fourth commit :file2"
+   50  git log --oneline
+   51  git diff 39da56c ab95b4c
+   52  ls
+   53  git push origin main
+   54  history > exp1_commands
+   55  ls
+   56  ls -a
+   57  git init
+   58  ls -a
+   59  touch file1.txt
+   60  touch file2.txt
+   61  touch file3.txt
+   62  touch file4.txt
+   63  vi file1.txt
+   64  vi file2.txt
+   65  vi file3.txt
+   66  vi file4.txt
+   67  git status
+   68  git add file1.txt
+   69  git status
+   70  git commit -m "first file commited"
+   71  git status
+   72  git log
+   73  git status
+   74  git add file2.txt
+   75  git commit -m "second file commited"
+   76  git status
+   77  git add file3.txt
+   78  git commit -m "third file commited"
+   79  git status
+   80  git add file4.txt
+   81  git commit -m "fouth file commited"
+   82  git log --online
+   83  git log --oneline
+   84  git revert f8d9f67
+   85  history > "exp2"
+   86  git clone https://github.com/lokeshaiml411/BranchRepo.git
+   87  cd repository
+   88  bash
+   89  git status
+   90  git add file1.txt
+   91  git branch
+   92  git status
+   93  cd D:/
+   94  cd y23acm411
+   95  ls
+   96  git log
+   97  pwd
+   98  mkdir exp 3
+   99  cd exp 3
+  100  ls -a
+  101  git init
+  102  touch file1.txt
+  103  vi file1.txt
+  104  git clone [200~https://github.com/lokeshaiml411/experment-03.git~
+  105  git clone https://github.com/lokeshaiml411/experment-03.git
+  106  cd git-experiment-03
+  107  cd git-experment-03
+  108  cd git-experment-03
+  109  cd experiment-03
+  110  cd experment-03
+  111  touch file3.txt
+  112  echo
+  113  git add file3.txt
+  114  echo "initial commit" >>file3.txt
+  115  git add file3.txt
+  116  git commit -m :initial commit"
+  117  git commit -m "initial commit"
+  118  c
+  119  git commit -m "initial commit"
+  120  git log
+  121  git branch -m main
+  122  git push -u original main
+  123  git push -u origin main
+  124  cat file3.txt
+  125  git fetch origin
+  126  git feteh origin
+  127  git fetch origin
+  128  git status
+  129  git log origin/main --oneline
+  130  git merge origin/main
+  131  cat file3.tat
+  132  cat file3.txt
+  133  git log oneline
+  134  git pull origin main
+  135  cat file3.txt
+  136  git log --oneline
+  137  history >exp 03
+  138  history >exp3
+  139  git remote -v
+  140  cd remote_repo1
+  141  git clone https://github.com/lokeshaiml411/remote_repo1.git
+  142  cd remote_repo1
+  143  git remote -v
+  144  git branch
+  145  git branch feature
+  146  git checkout feature
+  147  git branch
+  148  git branch feature
+  149  git branch -a
+  150  git checkout -b feature
+  151  vi file2.txt
+  152  git add file2.txt
+  153  git status
+  154  git commit -m "file2 updated"
+  155  ls
+  156  git checkout main
+  157  git checkout -b main
+  158  git checkout main
+  159  git switch feature-branch
+  160  git switch-branch
+  161  git checkout -b main
+  162  git checkout -b feature
+  163  vi file3.txt
+  164  git add
+  165  git commit -m "file3 updated"
+  166  git log --oneline
+  167  git pull origin main
+  168  git branch hub
+  169  git checkout hub
+  170  vi file5.txt
+  171  git add file5.txt
+  172  git status
+  173  git commit -"file5 updated"
+  174  git commit -m "file5 updated"
+  175  ls
+  176  git checkout main
+  177  git log --oneline
+  178  git pull origin main
+  179  git push origin main
+  180  git log --oneline
+  181  history >exp4
